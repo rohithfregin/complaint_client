@@ -2,7 +2,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
+const BACKEND = 'https://complaint-server-vf5p.onrender.com';
+
 export default defineConfig({
   plugins: [
     react(),
@@ -10,14 +11,13 @@ export default defineConfig({
   ],
   server: {
     port: 5173,
-    // Proxy API calls to backend during development
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: BACKEND,
         changeOrigin: true,
       },
       '/uploads': {
-        target: 'http://localhost:5000',
+        target: BACKEND,
         changeOrigin: true,
       },
     },
