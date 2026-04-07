@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <radialGradient id="sunGlow" cx="78%" cy="12%" r="35%">
+      <stop offset="0%"   stop-color="rgba(255,255,227,0.55)"/>
+      <stop offset="60%"  stop-color="rgba(255,255,227,0.10)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="skyBase" cx="50%" cy="0%" r="100%">
+      <stop offset="0%"   stop-color="#d8d8c8"/>
+      <stop offset="100%" stop-color="#b8b8a8"/>
+    </radialGradient>
+    <pattern id="dots" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="rgba(74,74,74,0.12)"/>
+    </pattern>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1440" height="560" fill="url(#skyBase)"/>
+  <rect width="1440" height="560" fill="url(#sunGlow)"/>
+  <!-- subtle clouds -->
+  <ellipse cx="300"  cy="100" rx="120" ry="35" fill="rgba(255,255,255,0.30)"/>
+  <ellipse cx="380"  cy="95"  rx="90"  ry="28" fill="rgba(255,255,255,0.22)"/>
+  <ellipse cx="900"  cy="130" rx="140" ry="38" fill="rgba(255,255,255,0.25)"/>
+  <ellipse cx="1000" cy="122" rx="100" ry="30" fill="rgba(255,255,255,0.18)"/>
+  <ellipse cx="1300" cy="80"  rx="110" ry="32" fill="rgba(255,255,255,0.20)"/>
+
+  <!-- Ground -->
+  <rect x="0" y="560" width="1440" height="340" fill="#c8c8b0"/>
+  <rect width="1440" height="900" fill="url(#dots)"/>
+
+  <!-- ══ MAIN CAMPUS BUILDING (center-back) ══ -->
+  <!-- body -->
+  <rect x="380" y="220" width="680" height="340" fill="#b0b0a0"/>
+  <!-- windows row 1 -->
+  <rect x="420" y="255" width="55" height="70" rx="5" fill="rgba(74,74,74,0.18)"/>
+  <rect x="500" y="255" width="55" height="70" rx="5" fill="rgba(109,129,150,0.30)"/>
+  <rect x="580" y="255" width="55" height="70" rx="5" fill="rgba(74,74,74,0.15)"/>
+  <rect x="810" y="255" width="55" height="70" rx="5" fill="rgba(109,129,150,0.28)"/>
+  <rect x="890" y="255" width="55" height="70" rx="5" fill="rgba(74,74,74,0.18)"/>
+  <rect x="970" y="255" width="55" height="70" rx="5" fill="rgba(109,129,150,0.25)"/>
+  <!-- windows row 2 -->
+  <rect x="420" y="355" width="55" height="70" rx="5" fill="rgba(109,129,150,0.22)"/>
+  <rect x="500" y="355" width="55" height="70" rx="5" fill="rgba(74,74,74,0.16)"/>
+  <rect x="580" y="355" width="55" height="70" rx="5" fill="rgba(109,129,150,0.28)"/>
+  <rect x="810" y="355" width="55" height="70" rx="5" fill="rgba(74,74,74,0.18)"/>
+  <rect x="890" y="355" width="55" height="70" rx="5" fill="rgba(109,129,150,0.22)"/>
+  <rect x="970" y="355" width="55" height="70" rx="5" fill="rgba(74,74,74,0.15)"/>
+  <!-- main entrance arch -->
+  <rect x="672" y="430" width="96" height="130" rx="48 48 0 0" fill="rgba(74,74,74,0.22)"/>
+  <!-- pediment -->
+  <polygon points="380,220 1060,220 1060,190 720,148 380,190" fill="#a8a898"/>
+  <polygon points="560,190 880,190 720,158" fill="rgba(109,129,150,0.25)"/>
+  <!-- roof ridge -->
+  <line x1="380" y1="220" x2="1060" y2="220" stroke="rgba(74,74,74,0.20)" stroke-width="2"/>
+
+  <!-- ══ CLOCK TOWER ══ -->
+  <rect x="682" y="60" width="76" height="160" fill="#a8a898"/>
+  <!-- tower window -->
+  <rect x="702" y="85"  width="36" height="50" rx="18 18 0 0" fill="rgba(74,74,74,0.20)"/>
+  <!-- clock face -->
+  <circle cx="720" cy="170" r="26" fill="#c8c8b0" stroke="rgba(74,74,74,0.25)" stroke-width="2"/>
+  <line x1="720" y1="170" x2="720" y2="152" stroke="rgba(74,74,74,0.60)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="720" y1="170" x2="734" y2="170" stroke="rgba(74,74,74,0.50)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- spire -->
+  <polygon points="682,60 758,60 720,18" fill="#9a9a8a"/>
+  <line x1="720" y1="18" x2="720" y2="2" stroke="rgba(74,74,74,0.40)" stroke-width="2"/>
+  <circle cx="720" cy="0" r="4" fill="rgba(109,129,150,0.70)"/>
+
+  <!-- ══ LEFT WING ══ -->
+  <rect x="60"  y="340" width="320" height="220" fill="#b8b8a8"/>
+  <rect x="80"  y="365" width="45" height="60" rx="4" fill="rgba(74,74,74,0.16)"/>
+  <rect x="145" y="365" width="45" height="60" rx="4" fill="rgba(109,129,150,0.25)"/>
+  <rect x="210" y="365" width="45" height="60" rx="4" fill="rgba(74,74,74,0.14)"/>
+  <rect x="275" y="365" width="45" height="60" rx="4" fill="rgba(109,129,150,0.20)"/>
+  <rect x="80"  y="450" width="45" height="60" rx="4" fill="rgba(109,129,150,0.22)"/>
+  <rect x="145" y="450" width="45" height="60" rx="4" fill="rgba(74,74,74,0.15)"/>
+  <rect x="210" y="450" width="45" height="60" rx="4" fill="rgba(109,129,150,0.18)"/>
+  <polygon points="60,340 380,340 380,318 220,290 60,318" fill="#a8a898"/>
+
+  <!-- ══ RIGHT WING ══ -->
+  <rect x="1060" y="340" width="320" height="220" fill="#b8b8a8"/>
+  <rect x="1080" y="365" width="45" height="60" rx="4" fill="rgba(109,129,150,0.22)"/>
+  <rect x="1145" y="365" width="45" height="60" rx="4" fill="rgba(74,74,74,0.16)"/>
+  <rect x="1210" y="365" width="45" height="60" rx="4" fill="rgba(109,129,150,0.25)"/>
+  <rect x="1275" y="365" width="45" height="60" rx="4" fill="rgba(74,74,74,0.14)"/>
+  <rect x="1080" y="450" width="45" height="60" rx="4" fill="rgba(74,74,74,0.15)"/>
+  <rect x="1145" y="450" width="45" height="60" rx="4" fill="rgba(109,129,150,0.20)"/>
+  <rect x="1210" y="450" width="45" height="60" rx="4" fill="rgba(74,74,74,0.16)"/>
+  <polygon points="1060,340 1380,340 1380,318 1220,290 1060,318" fill="#a8a898"/>
+
+  <!-- ══ COURTYARD GROUND ══ -->
+  <!-- main path (vertical) -->
+  <rect x="680" y="560" width="80" height="340" fill="#d0d0b8"/>
+  <!-- horizontal path -->
+  <rect x="0" y="680" width="1440" height="60" fill="#d0d0b8"/>
+  <!-- path borders -->
+  <line x1="680" y1="560" x2="680" y2="900" stroke="rgba(74,74,74,0.12)" stroke-width="1"/>
+  <line x1="760" y1="560" x2="760" y2="900" stroke="rgba(74,74,74,0.12)" stroke-width="1"/>
+  <line x1="0"   y1="680" x2="1440" y2="680" stroke="rgba(74,74,74,0.12)" stroke-width="1"/>
+  <line x1="0"   y1="740" x2="1440" y2="740" stroke="rgba(74,74,74,0.12)" stroke-width="1"/>
+
+  <!-- ══ FOUNTAIN (center) ══ -->
+  <ellipse cx="720" cy="620" rx="55" ry="18" fill="#b8b8c8" stroke="rgba(109,129,150,0.35)" stroke-width="2"/>
+  <ellipse cx="720" cy="618" rx="40" ry="12" fill="rgba(109,129,150,0.30)"/>
+  <!-- fountain pillar -->
+  <rect x="716" y="590" width="8" height="28" fill="#a8a8b8"/>
+  <!-- water spray -->
+  <line x1="720" y1="590" x2="710" y2="572" stroke="rgba(109,129,150,0.50)" stroke-width="1.5"/>
+  <line x1="720" y1="590" x2="720" y2="568" stroke="rgba(109,129,150,0.55)" stroke-width="1.5"/>
+  <line x1="720" y1="590" x2="730" y2="572" stroke="rgba(109,129,150,0.50)" stroke-width="1.5"/>
+  <circle cx="710" cy="571" r="2" fill="rgba(109,129,150,0.60)"/>
+  <circle cx="720" cy="567" r="2" fill="rgba(109,129,150,0.65)"/>
+  <circle cx="730" cy="571" r="2" fill="rgba(109,129,150,0.60)"/>
+
+  <!-- ══ TREES ══ -->
+  <!-- left tree 1 -->
+  <rect x="192" y="700" width="12" height="100" fill="#8a8a7a"/>
+  <ellipse cx="198" cy="680" rx="42" ry="55" fill="#9a9a8a"/>
+  <ellipse cx="198" cy="665" rx="30" ry="40" fill="rgba(109,129,150,0.35)"/>
+  <!-- left tree 2 -->
+  <rect x="312" y="710" width="10" height="90" fill="#8a8a7a"/>
+  <ellipse cx="317" cy="692" rx="36" ry="48" fill="#9a9a8a"/>
+  <ellipse cx="317" cy="678" rx="25" ry="34" fill="rgba(109,129,150,0.28)"/>
+  <!-- right tree 1 -->
+  <rect x="1236" y="700" width="12" height="100" fill="#8a8a7a"/>
+  <ellipse cx="1242" cy="680" rx="42" ry="55" fill="#9a9a8a"/>
+  <ellipse cx="1242" cy="665" rx="30" ry="40" fill="rgba(109,129,150,0.35)"/>
+  <!-- right tree 2 -->
+  <rect x="1116" y="710" width="10" height="90" fill="#8a8a7a"/>
+  <ellipse cx="1121" cy="692" rx="36" ry="48" fill="#9a9a8a"/>
+  <ellipse cx="1121" cy="678" rx="25" ry="34" fill="rgba(109,129,150,0.28)"/>
+
+  <!-- ══ BENCHES ══ -->
+  <!-- bench left -->
+  <rect x="420" y="758" width="90" height="10" rx="3" fill="#8a8a7a"/>
+  <rect x="430" y="768" width="10" height="22" fill="#7a7a6a"/>
+  <rect x="490" y="768" width="10" height="22" fill="#7a7a6a"/>
+  <rect x="422" y="748" width="86" height="8"  rx="3" fill="#9a9a8a"/>
+  <!-- bench right -->
+  <rect x="930" y="758" width="90" height="10" rx="3" fill="#8a8a7a"/>
+  <rect x="940" y="768" width="10" height="22" fill="#7a7a6a"/>
+  <rect x="1000" y="768" width="10" height="22" fill="#7a7a6a"/>
+  <rect x="932" y="748" width="86" height="8"  rx="3" fill="#9a9a8a"/>
+
+  <!-- ══ LAMP POSTS ══ -->
+  <!-- left post -->
+  <rect x="534" y="620" width="6" height="160" fill="#7a7a6a"/>
+  <ellipse cx="537" cy="618" rx="16" ry="6" fill="#8a8a7a"/>
+  <ellipse cx="537" cy="614" rx="10" ry="4" fill="rgba(255,255,227,0.55)"/>
+  <!-- right post -->
+  <rect x="900" y="620" width="6" height="160" fill="#7a7a6a"/>
+  <ellipse cx="903" cy="618" rx="16" ry="6" fill="#8a8a7a"/>
+  <ellipse cx="903" cy="614" rx="10" ry="4" fill="rgba(255,255,227,0.55)"/>
+
+  <!-- ══ LIGHT OVERLAY for readability ══ -->
+  <rect width="1440" height="900" fill="rgba(255,255,227,0.30)"/>
+</svg>

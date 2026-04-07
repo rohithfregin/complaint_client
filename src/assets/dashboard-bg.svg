@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <radialGradient id="skyGrad" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#1e1e1e"/>
+    </radialGradient>
+    <!-- dot grid pattern -->
+    <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="rgba(203,203,203,0.18)"/>
+    </pattern>
+  </defs>
+
+  <!-- Sky base -->
+  <rect width="1440" height="900" fill="url(#skyGrad)"/>
+
+  <!-- Dot grid overlay -->
+  <rect width="1440" height="900" fill="url(#dots)"/>
+
+  <!-- ── Soft glow blobs ── -->
+  <ellipse cx="1300" cy="120" rx="320" ry="200" fill="rgba(109,129,150,0.18)"/>
+  <ellipse cx="140"  cy="780" rx="280" ry="180" fill="rgba(109,129,150,0.22)"/>
+  <ellipse cx="720"  cy="460" rx="380" ry="220" fill="rgba(255,255,227,0.04)"/>
+
+  <!-- ══════════════════════════════════════════
+       CAMPUS BUILDING SILHOUETTE (bottom)
+       Colors: charcoal #4A4A4A, slate #6D8196
+       ══════════════════════════════════════════ -->
+
+  <!-- Ground strip -->
+  <rect x="0" y="820" width="1440" height="80" fill="#1a1a1a"/>
+
+  <!-- ── Left wing ── -->
+  <rect x="60"  y="620" width="260" height="200" fill="#3d3d3d"/>
+  <!-- windows left wing -->
+  <rect x="90"  y="645" width="40" height="50" rx="4" fill="rgba(255,255,227,0.12)"/>
+  <rect x="150" y="645" width="40" height="50" rx="4" fill="rgba(255,255,227,0.10)"/>
+  <rect x="210" y="645" width="40" height="50" rx="4" fill="rgba(109,129,150,0.35)"/>
+  <rect x="270" y="645" width="40" height="50" rx="4" fill="rgba(255,255,227,0.08)"/>
+  <rect x="90"  y="720" width="40" height="50" rx="4" fill="rgba(109,129,150,0.30)"/>
+  <rect x="150" y="720" width="40" height="50" rx="4" fill="rgba(255,255,227,0.14)"/>
+  <rect x="210" y="720" width="40" height="50" rx="4" fill="rgba(255,255,227,0.09)"/>
+  <rect x="270" y="720" width="40" height="50" rx="4" fill="rgba(109,129,150,0.25)"/>
+  <!-- roof left wing -->
+  <polygon points="60,620 320,620 320,600 190,570 60,600" fill="#4A4A4A"/>
+
+  <!-- ── Right wing ── -->
+  <rect x="1120" y="620" width="260" height="200" fill="#3d3d3d"/>
+  <rect x="1130" y="645" width="40" height="50" rx="4" fill="rgba(255,255,227,0.10)"/>
+  <rect x="1190" y="645" width="40" height="50" rx="4" fill="rgba(109,129,150,0.35)"/>
+  <rect x="1250" y="645" width="40" height="50" rx="4" fill="rgba(255,255,227,0.12)"/>
+  <rect x="1310" y="645" width="40" height="50" rx="4" fill="rgba(255,255,227,0.08)"/>
+  <rect x="1130" y="720" width="40" height="50" rx="4" fill="rgba(109,129,150,0.28)"/>
+  <rect x="1190" y="720" width="40" height="50" rx="4" fill="rgba(255,255,227,0.13)"/>
+  <rect x="1250" y="720" width="40" height="50" rx="4" fill="rgba(255,255,227,0.09)"/>
+  <rect x="1310" y="720" width="40" height="50" rx="4" fill="rgba(109,129,150,0.22)"/>
+  <polygon points="1120,620 1380,620 1380,600 1250,570 1120,600" fill="#4A4A4A"/>
+
+  <!-- ── Main central building ── -->
+  <rect x="380" y="500" width="680" height="320" fill="#424242"/>
+
+  <!-- Main building windows — row 1 -->
+  <rect x="420" y="530" width="50" height="65" rx="5" fill="rgba(255,255,227,0.13)"/>
+  <rect x="500" y="530" width="50" height="65" rx="5" fill="rgba(109,129,150,0.40)"/>
+  <rect x="580" y="530" width="50" height="65" rx="5" fill="rgba(255,255,227,0.11)"/>
+  <rect x="800" y="530" width="50" height="65" rx="5" fill="rgba(255,255,227,0.13)"/>
+  <rect x="880" y="530" width="50" height="65" rx="5" fill="rgba(109,129,150,0.38)"/>
+  <rect x="960" y="530" width="50" height="65" rx="5" fill="rgba(255,255,227,0.10)"/>
+
+  <!-- Main building windows — row 2 -->
+  <rect x="420" y="625" width="50" height="65" rx="5" fill="rgba(109,129,150,0.32)"/>
+  <rect x="500" y="625" width="50" height="65" rx="5" fill="rgba(255,255,227,0.12)"/>
+  <rect x="580" y="625" width="50" height="65" rx="5" fill="rgba(109,129,150,0.28)"/>
+  <rect x="800" y="625" width="50" height="65" rx="5" fill="rgba(255,255,227,0.10)"/>
+  <rect x="880" y="625" width="50" height="65" rx="5" fill="rgba(255,255,227,0.14)"/>
+  <rect x="960" y="625" width="50" height="65" rx="5" fill="rgba(109,129,150,0.30)"/>
+
+  <!-- Main entrance arch -->
+  <rect x="670" y="700" width="100" height="120" rx="50 50 0 0" fill="#2e2e2e"/>
+  <rect x="680" y="720" width="80"  height="100" rx="40 40 0 0" fill="rgba(109,129,150,0.25)"/>
+
+  <!-- Main building roof / pediment -->
+  <polygon points="380,500 1060,500 1060,470 720,420 380,470" fill="#4A4A4A"/>
+  <!-- Pediment triangle detail -->
+  <polygon points="580,470 860,470 720,435" fill="rgba(109,129,150,0.30)"/>
+
+  <!-- ── Clock Tower (center) ── -->
+  <rect x="680" y="280" width="80" height="220" fill="#3a3a3a"/>
+  <!-- Tower windows -->
+  <rect x="700" y="310" width="40" height="55" rx="20 20 0 0" fill="rgba(255,255,227,0.18)"/>
+  <rect x="700" y="385" width="40" height="45" rx="20 20 0 0" fill="rgba(109,129,150,0.45)"/>
+  <!-- Clock face -->
+  <circle cx="720" cy="460" r="28" fill="#2e2e2e" stroke="rgba(203,203,203,0.35)" stroke-width="2"/>
+  <circle cx="720" cy="460" r="22" fill="rgba(255,255,227,0.08)"/>
+  <!-- Clock hands -->
+  <line x1="720" y1="460" x2="720" y2="443" stroke="rgba(203,203,203,0.6)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="720" y1="460" x2="733" y2="460" stroke="rgba(203,203,203,0.5)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Tower spire -->
+  <polygon points="680,280 760,280 720,230" fill="#4A4A4A"/>
+  <!-- Spire tip -->
+  <line x1="720" y1="230" x2="720" y2="210" stroke="rgba(203,203,203,0.5)" stroke-width="2"/>
+  <circle cx="720" cy="207" r="4" fill="rgba(109,129,150,0.8)"/>
+
+  <!-- ── Decorative columns on main building ── -->
+  <rect x="430" y="470" width="12" height="30" rx="3" fill="rgba(203,203,203,0.20)"/>
+  <rect x="480" y="470" width="12" height="30" rx="3" fill="rgba(203,203,203,0.20)"/>
+  <rect x="940" y="470" width="12" height="30" rx="3" fill="rgba(203,203,203,0.20)"/>
+  <rect x="990" y="470" width="12" height="30" rx="3" fill="rgba(203,203,203,0.20)"/>
+
+  <!-- ── Trees (left & right) ── -->
+  <!-- Tree left 1 -->
+  <rect x="155" y="760" width="10" height="60" fill="#2a2a2a"/>
+  <ellipse cx="160" cy="740" rx="30" ry="40" fill="rgba(74,74,74,0.70)"/>
+  <ellipse cx="160" cy="730" rx="22" ry="30" fill="rgba(109,129,150,0.35)"/>
+  <!-- Tree left 2 -->
+  <rect x="235" y="770" width="10" height="50" fill="#2a2a2a"/>
+  <ellipse cx="240" cy="752" rx="25" ry="34" fill="rgba(74,74,74,0.65)"/>
+  <ellipse cx="240" cy="743" rx="18" ry="25" fill="rgba(109,129,150,0.28)"/>
+  <!-- Tree right 1 -->
+  <rect x="1275" y="760" width="10" height="60" fill="#2a2a2a"/>
+  <ellipse cx="1280" cy="740" rx="30" ry="40" fill="rgba(74,74,74,0.70)"/>
+  <ellipse cx="1280" cy="730" rx="22" ry="30" fill="rgba(109,129,150,0.35)"/>
+  <!-- Tree right 2 -->
+  <rect x="1195" y="770" width="10" height="50" fill="#2a2a2a"/>
+  <ellipse cx="1200" cy="752" rx="25" ry="34" fill="rgba(74,74,74,0.65)"/>
+  <ellipse cx="1200" cy="743" rx="18" ry="25" fill="rgba(109,129,150,0.28)"/>
+
+  <!-- ── Stars / particles ── -->
+  <circle cx="200"  cy="80"  r="1.5" fill="rgba(255,255,227,0.55)"/>
+  <circle cx="450"  cy="50"  r="1"   fill="rgba(255,255,227,0.40)"/>
+  <circle cx="900"  cy="90"  r="1.5" fill="rgba(255,255,227,0.50)"/>
+  <circle cx="1100" cy="40"  r="1"   fill="rgba(255,255,227,0.45)"/>
+  <circle cx="1350" cy="110" r="1.5" fill="rgba(255,255,227,0.35)"/>
+  <circle cx="350"  cy="160" r="1"   fill="rgba(203,203,203,0.40)"/>
+  <circle cx="650"  cy="130" r="1"   fill="rgba(203,203,203,0.35)"/>
+  <circle cx="1050" cy="170" r="1.5" fill="rgba(203,203,203,0.38)"/>
+
+  <!-- ── Top dark overlay so content cards stay readable ── -->
+  <rect width="1440" height="900" fill="rgba(20,20,20,0.45)"/>
+</svg>

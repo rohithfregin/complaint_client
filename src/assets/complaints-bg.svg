@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <radialGradient id="hallGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%"   stop-color="rgba(109,129,150,0.16)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="lightCone1" cx="25%" cy="0%" r="30%">
+      <stop offset="0%"   stop-color="rgba(255,255,227,0.18)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="lightCone2" cx="75%" cy="0%" r="30%">
+      <stop offset="0%"   stop-color="rgba(255,255,227,0.14)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <pattern id="dots" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="rgba(203,203,203,0.13)"/>
+    </pattern>
+  </defs>
+
+  <!-- Base wall -->
+  <rect width="1440" height="900" fill="#1e1e1e"/>
+  <rect width="1440" height="900" fill="url(#dots)"/>
+  <rect width="1440" height="900" fill="url(#hallGlow)"/>
+  <rect width="1440" height="900" fill="url(#lightCone1)"/>
+  <rect width="1440" height="900" fill="url(#lightCone2)"/>
+
+  <!-- ══ CEILING & FLOOR ══ -->
+  <rect x="0" y="0"   width="1440" height="60"  fill="#141414"/>
+  <rect x="0" y="840" width="1440" height="60"  fill="#141414"/>
+  <!-- ceiling cornice -->
+  <rect x="0" y="58"  width="1440" height="5"   fill="rgba(203,203,203,0.12)"/>
+  <!-- floor skirting -->
+  <rect x="0" y="838" width="1440" height="5"   fill="rgba(203,203,203,0.10)"/>
+  <!-- floor tiles -->
+  <line x1="0" y1="840" x2="1440" y2="840" stroke="rgba(203,203,203,0.08)" stroke-width="1"/>
+  <line x1="240" y1="840" x2="240" y2="900" stroke="rgba(203,203,203,0.06)" stroke-width="1"/>
+  <line x1="480" y1="840" x2="480" y2="900" stroke="rgba(203,203,203,0.06)" stroke-width="1"/>
+  <line x1="720" y1="840" x2="720" y2="900" stroke="rgba(203,203,203,0.06)" stroke-width="1"/>
+  <line x1="960" y1="840" x2="960" y2="900" stroke="rgba(203,203,203,0.06)" stroke-width="1"/>
+  <line x1="1200" y1="840" x2="1200" y2="900" stroke="rgba(203,203,203,0.06)" stroke-width="1"/>
+
+  <!-- ══ CEILING LIGHTS ══ -->
+  <!-- light 1 -->
+  <rect x="310" y="58" width="60" height="8" rx="2" fill="#2e2e2e"/>
+  <rect x="315" y="66" width="50" height="4" rx="1" fill="rgba(255,255,227,0.55)"/>
+  <polygon points="310,70 370,70 420,200 260,200" fill="rgba(255,255,227,0.04)"/>
+  <!-- light 2 -->
+  <rect x="690" y="58" width="60" height="8" rx="2" fill="#2e2e2e"/>
+  <rect x="695" y="66" width="50" height="4" rx="1" fill="rgba(255,255,227,0.55)"/>
+  <polygon points="690,70 750,70 800,200 640,200" fill="rgba(255,255,227,0.04)"/>
+  <!-- light 3 -->
+  <rect x="1070" y="58" width="60" height="8" rx="2" fill="#2e2e2e"/>
+  <rect x="1075" y="66" width="50" height="4" rx="1" fill="rgba(255,255,227,0.55)"/>
+  <polygon points="1070,70 1130,70 1180,200 1020,200" fill="rgba(255,255,227,0.04)"/>
+
+  <!-- ══ LOCKERS — LEFT WALL ══ -->
+  <rect x="0" y="63" width="200" height="775" fill="#2a2a2a"/>
+  <!-- locker dividers vertical -->
+  <line x1="50"  y1="63" x2="50"  y2="838" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <line x1="100" y1="63" x2="100" y2="838" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <line x1="150" y1="63" x2="150" y2="838" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <!-- locker dividers horizontal -->
+  <line x1="0" y1="230" x2="200" y2="230" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <line x1="0" y1="400" x2="200" y2="400" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <line x1="0" y1="570" x2="200" y2="570" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <line x1="0" y1="710" x2="200" y2="710" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <!-- locker handles -->
+  <circle cx="28"  cy="148" r="4" fill="rgba(109,129,150,0.50)"/>
+  <circle cx="78"  cy="148" r="4" fill="rgba(109,129,150,0.45)"/>
+  <circle cx="128" cy="148" r="4" fill="rgba(109,129,150,0.50)"/>
+  <circle cx="178" cy="148" r="4" fill="rgba(109,129,150,0.45)"/>
+  <circle cx="28"  cy="315" r="4" fill="rgba(109,129,150,0.45)"/>
+  <circle cx="78"  cy="315" r="4" fill="rgba(109,129,150,0.50)"/>
+  <circle cx="128" cy="315" r="4" fill="rgba(109,129,150,0.45)"/>
+  <circle cx="178" cy="315" r="4" fill="rgba(109,129,150,0.50)"/>
+  <circle cx="28"  cy="485" r="4" fill="rgba(109,129,150,0.50)"/>
+  <circle cx="78"  cy="485" r="4" fill="rgba(109,129,150,0.45)"/>
+  <circle cx="128" cy="485" r="4" fill="rgba(109,129,150,0.50)"/>
+  <circle cx="178" cy="485" r="4" fill="rgba(109,129,150,0.45)"/>
+
+  <!-- ══ LOCKERS — RIGHT WALL ══ -->
+  <rect x="1240" y="63" width="200" height="775" fill="#2a2a2a"/>
+  <line x1="1290" y1="63" x2="1290" y2="838" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <line x1="1340" y1="63" x2="1340" y2="838" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <line x1="1390" y1="63" x2="1390" y2="838" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <line x1="1240" y1="230" x2="1440" y2="230" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <line x1="1240" y1="400" x2="1440" y2="400" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <line x1="1240" y1="570" x2="1440" y2="570" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <line x1="1240" y1="710" x2="1440" y2="710" stroke="rgba(203,203,203,0.10)" stroke-width="1"/>
+  <circle cx="1262" cy="148" r="4" fill="rgba(109,129,150,0.50)"/>
+  <circle cx="1312" cy="148" r="4" fill="rgba(109,129,150,0.45)"/>
+  <circle cx="1362" cy="148" r="4" fill="rgba(109,129,150,0.50)"/>
+  <circle cx="1412" cy="148" r="4" fill="rgba(109,129,150,0.45)"/>
+  <circle cx="1262" cy="315" r="4" fill="rgba(109,129,150,0.45)"/>
+  <circle cx="1312" cy="315" r="4" fill="rgba(109,129,150,0.50)"/>
+  <circle cx="1362" cy="315" r="4" fill="rgba(109,129,150,0.45)"/>
+  <circle cx="1412" cy="315" r="4" fill="rgba(109,129,150,0.50)"/>
+
+  <!-- ══ BULLETIN BOARD (center-left) ══ -->
+  <rect x="230" y="120" width="380" height="280" rx="6" fill="#3a3020" stroke="rgba(203,203,203,0.15)" stroke-width="2"/>
+  <!-- board header -->
+  <rect x="230" y="120" width="380" height="32" rx="6 6 0 0" fill="#4A4A4A"/>
+  <text x="420" y="141" text-anchor="middle" font-size="11" font-weight="700" fill="rgba(255,255,227,0.80)" font-family="sans-serif" letter-spacing="2">NOTICE BOARD</text>
+  <!-- pinned papers -->
+  <rect x="248" y="165" width="100" height="75" rx="3" fill="rgba(255,255,227,0.82)" transform="rotate(-2,298,202)"/>
+  <circle cx="298" cy="168" r="4" fill="rgba(109,129,150,0.80)"/>
+  <line x1="258" y1="180" x2="338" y2="180" stroke="rgba(74,74,74,0.30)" stroke-width="1.5"/>
+  <line x1="258" y1="190" x2="338" y2="190" stroke="rgba(74,74,74,0.25)" stroke-width="1.5"/>
+  <line x1="258" y1="200" x2="320" y2="200" stroke="rgba(74,74,74,0.20)" stroke-width="1.5"/>
+  <line x1="258" y1="210" x2="330" y2="210" stroke="rgba(74,74,74,0.20)" stroke-width="1.5"/>
+  <line x1="258" y1="220" x2="315" y2="220" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+
+  <rect x="368" y="158" width="90" height="65" rx="3" fill="rgba(203,203,203,0.75)" transform="rotate(1.5,413,190)"/>
+  <circle cx="413" cy="161" r="4" fill="rgba(74,74,74,0.70)"/>
+  <line x1="378" y1="174" x2="448" y2="174" stroke="rgba(74,74,74,0.28)" stroke-width="1.5"/>
+  <line x1="378" y1="184" x2="448" y2="184" stroke="rgba(74,74,74,0.22)" stroke-width="1.5"/>
+  <line x1="378" y1="194" x2="435" y2="194" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="378" y1="204" x2="440" y2="204" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+
+  <rect x="490" y="162" width="105" height="80" rx="3" fill="rgba(255,255,227,0.70)" transform="rotate(-1,542,202)"/>
+  <circle cx="542" cy="165" r="4" fill="rgba(109,129,150,0.75)"/>
+  <line x1="500" y1="178" x2="585" y2="178" stroke="rgba(74,74,74,0.28)" stroke-width="1.5"/>
+  <line x1="500" y1="188" x2="585" y2="188" stroke="rgba(74,74,74,0.22)" stroke-width="1.5"/>
+  <line x1="500" y1="198" x2="570" y2="198" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="500" y1="208" x2="575" y2="208" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="500" y1="218" x2="560" y2="218" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+
+  <rect x="255" y="258" width="115" height="120" rx="3" fill="rgba(203,203,203,0.65)" transform="rotate(1,312,318)"/>
+  <circle cx="312" cy="261" r="4" fill="rgba(74,74,74,0.65)"/>
+  <line x1="265" y1="275" x2="360" y2="275" stroke="rgba(74,74,74,0.25)" stroke-width="1.5"/>
+  <line x1="265" y1="285" x2="360" y2="285" stroke="rgba(74,74,74,0.20)" stroke-width="1.5"/>
+  <line x1="265" y1="295" x2="345" y2="295" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="265" y1="305" x2="350" y2="305" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="265" y1="315" x2="340" y2="315" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+  <line x1="265" y1="325" x2="355" y2="325" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+  <line x1="265" y1="335" x2="342" y2="335" stroke="rgba(74,74,74,0.12)" stroke-width="1.5"/>
+  <line x1="265" y1="345" x2="350" y2="345" stroke="rgba(74,74,74,0.12)" stroke-width="1.5"/>
+  <line x1="265" y1="355" x2="338" y2="355" stroke="rgba(74,74,74,0.10)" stroke-width="1.5"/>
+  <line x1="265" y1="365" x2="348" y2="365" stroke="rgba(74,74,74,0.10)" stroke-width="1.5"/>
+
+  <rect x="390" y="248" width="95" height="70" rx="3" fill="rgba(255,255,227,0.78)" transform="rotate(-2,437,283)"/>
+  <circle cx="437" cy="251" r="4" fill="rgba(109,129,150,0.75)"/>
+  <line x1="400" y1="264" x2="475" y2="264" stroke="rgba(74,74,74,0.28)" stroke-width="1.5"/>
+  <line x1="400" y1="274" x2="475" y2="274" stroke="rgba(74,74,74,0.22)" stroke-width="1.5"/>
+  <line x1="400" y1="284" x2="462" y2="284" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="400" y1="294" x2="468" y2="294" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="400" y1="304" x2="455" y2="304" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+
+  <rect x="500" y="258" width="90" height="110" rx="3" fill="rgba(203,203,203,0.60)" transform="rotate(1.5,545,313)"/>
+  <circle cx="545" cy="261" r="4" fill="rgba(74,74,74,0.65)"/>
+  <line x1="510" y1="274" x2="580" y2="274" stroke="rgba(74,74,74,0.25)" stroke-width="1.5"/>
+  <line x1="510" y1="284" x2="580" y2="284" stroke="rgba(74,74,74,0.20)" stroke-width="1.5"/>
+  <line x1="510" y1="294" x2="568" y2="294" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="510" y1="304" x2="572" y2="304" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+  <line x1="510" y1="314" x2="565" y2="314" stroke="rgba(74,74,74,0.12)" stroke-width="1.5"/>
+  <line x1="510" y1="324" x2="570" y2="324" stroke="rgba(74,74,74,0.12)" stroke-width="1.5"/>
+  <line x1="510" y1="334" x2="562" y2="334" stroke="rgba(74,74,74,0.10)" stroke-width="1.5"/>
+  <line x1="510" y1="344" x2="568" y2="344" stroke="rgba(74,74,74,0.10)" stroke-width="1.5"/>
+  <line x1="510" y1="354" x2="560" y2="354" stroke="rgba(74,74,74,0.08)" stroke-width="1.5"/>
+
+  <!-- ══ SECOND BULLETIN BOARD (right side) ══ -->
+  <rect x="830" y="120" width="380" height="280" rx="6" fill="#3a3020" stroke="rgba(203,203,203,0.15)" stroke-width="2"/>
+  <rect x="830" y="120" width="380" height="32" rx="6 6 0 0" fill="#4A4A4A"/>
+  <text x="1020" y="141" text-anchor="middle" font-size="11" font-weight="700" fill="rgba(255,255,227,0.80)" font-family="sans-serif" letter-spacing="2">ANNOUNCEMENTS</text>
+  <!-- pinned papers right board -->
+  <rect x="848" y="165" width="105" height="80" rx="3" fill="rgba(255,255,227,0.80)" transform="rotate(-1.5,900,205)"/>
+  <circle cx="900" cy="168" r="4" fill="rgba(109,129,150,0.80)"/>
+  <line x1="858" y1="181" x2="943" y2="181" stroke="rgba(74,74,74,0.28)" stroke-width="1.5"/>
+  <line x1="858" y1="191" x2="943" y2="191" stroke="rgba(74,74,74,0.22)" stroke-width="1.5"/>
+  <line x1="858" y1="201" x2="928" y2="201" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="858" y1="211" x2="935" y2="211" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="858" y1="221" x2="922" y2="221" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+
+  <rect x="970" y="158" width="90" height="70" rx="3" fill="rgba(203,203,203,0.72)" transform="rotate(2,1015,193)"/>
+  <circle cx="1015" cy="161" r="4" fill="rgba(74,74,74,0.70)"/>
+  <line x1="980" y1="174" x2="1050" y2="174" stroke="rgba(74,74,74,0.25)" stroke-width="1.5"/>
+  <line x1="980" y1="184" x2="1050" y2="184" stroke="rgba(74,74,74,0.20)" stroke-width="1.5"/>
+  <line x1="980" y1="194" x2="1038" y2="194" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="980" y1="204" x2="1042" y2="204" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+
+  <rect x="1080" y="162" width="110" height="85" rx="3" fill="rgba(255,255,227,0.68)" transform="rotate(-1,1135,204)"/>
+  <circle cx="1135" cy="165" r="4" fill="rgba(109,129,150,0.75)"/>
+  <line x1="1090" y1="178" x2="1180" y2="178" stroke="rgba(74,74,74,0.25)" stroke-width="1.5"/>
+  <line x1="1090" y1="188" x2="1180" y2="188" stroke="rgba(74,74,74,0.20)" stroke-width="1.5"/>
+  <line x1="1090" y1="198" x2="1165" y2="198" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="1090" y1="208" x2="1170" y2="208" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+  <line x1="1090" y1="218" x2="1158" y2="218" stroke="rgba(74,74,74,0.12)" stroke-width="1.5"/>
+  <line x1="1090" y1="228" x2="1163" y2="228" stroke="rgba(74,74,74,0.12)" stroke-width="1.5"/>
+  <line x1="1090" y1="238" x2="1155" y2="238" stroke="rgba(74,74,74,0.10)" stroke-width="1.5"/>
+
+  <rect x="848" y="258" width="100" height="115" rx="3" fill="rgba(203,203,203,0.62)" transform="rotate(1.5,898,315)"/>
+  <circle cx="898" cy="261" r="4" fill="rgba(74,74,74,0.65)"/>
+  <line x1="858" y1="274" x2="938" y2="274" stroke="rgba(74,74,74,0.22)" stroke-width="1.5"/>
+  <line x1="858" y1="284" x2="938" y2="284" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="858" y1="294" x2="925" y2="294" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+  <line x1="858" y1="304" x2="930" y2="304" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+  <line x1="858" y1="314" x2="920" y2="314" stroke="rgba(74,74,74,0.12)" stroke-width="1.5"/>
+  <line x1="858" y1="324" x2="928" y2="324" stroke="rgba(74,74,74,0.12)" stroke-width="1.5"/>
+  <line x1="858" y1="334" x2="918" y2="334" stroke="rgba(74,74,74,0.10)" stroke-width="1.5"/>
+  <line x1="858" y1="344" x2="925" y2="344" stroke="rgba(74,74,74,0.10)" stroke-width="1.5"/>
+  <line x1="858" y1="354" x2="915" y2="354" stroke="rgba(74,74,74,0.08)" stroke-width="1.5"/>
+  <line x1="858" y1="364" x2="922" y2="364" stroke="rgba(74,74,74,0.08)" stroke-width="1.5"/>
+
+  <rect x="968" y="252" width="95" height="75" rx="3" fill="rgba(255,255,227,0.75)" transform="rotate(-2,1015,289)"/>
+  <circle cx="1015" cy="255" r="4" fill="rgba(109,129,150,0.75)"/>
+  <line x1="978" y1="268" x2="1053" y2="268" stroke="rgba(74,74,74,0.25)" stroke-width="1.5"/>
+  <line x1="978" y1="278" x2="1053" y2="278" stroke="rgba(74,74,74,0.20)" stroke-width="1.5"/>
+  <line x1="978" y1="288" x2="1040" y2="288" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="978" y1="298" x2="1045" y2="298" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+  <line x1="978" y1="308" x2="1038" y2="308" stroke="rgba(74,74,74,0.12)" stroke-width="1.5"/>
+
+  <rect x="1082" y="258" width="108" height="100" rx="3" fill="rgba(203,203,203,0.58)" transform="rotate(1,1136,308)"/>
+  <circle cx="1136" cy="261" r="4" fill="rgba(74,74,74,0.65)"/>
+  <line x1="1092" y1="274" x2="1180" y2="274" stroke="rgba(74,74,74,0.22)" stroke-width="1.5"/>
+  <line x1="1092" y1="284" x2="1180" y2="284" stroke="rgba(74,74,74,0.18)" stroke-width="1.5"/>
+  <line x1="1092" y1="294" x2="1168" y2="294" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+  <line x1="1092" y1="304" x2="1172" y2="304" stroke="rgba(74,74,74,0.15)" stroke-width="1.5"/>
+  <line x1="1092" y1="314" x2="1165" y2="314" stroke="rgba(74,74,74,0.12)" stroke-width="1.5"/>
+  <line x1="1092" y1="324" x2="1170" y2="324" stroke="rgba(74,74,74,0.12)" stroke-width="1.5"/>
+  <line x1="1092" y1="334" x2="1162" y2="334" stroke="rgba(74,74,74,0.10)" stroke-width="1.5"/>
+  <line x1="1092" y1="344" x2="1168" y2="344" stroke="rgba(74,74,74,0.10)" stroke-width="1.5"/>
+  <line x1="1092" y1="348" x2="1160" y2="348" stroke="rgba(74,74,74,0.08)" stroke-width="1.5"/>
+
+  <!-- ══ DARK OVERLAY ══ -->
+  <rect width="1440" height="900" fill="rgba(10,10,10,0.52)"/>
+</svg>
